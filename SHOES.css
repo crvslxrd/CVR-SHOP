@@ -50,31 +50,3 @@ padding: 10px;
 .header_list {
     display: flex;
 }
-
-/* ..........................новинки на главном экране.......................... */
-
-.content {
-    padding-top: 250px;
-    max-height: 0px;
-    margin-right: auto;
-    margin-left: 400px;
-}   
-
-h1 {
-font-size: 96px;
-word-spacing: 0px;
-margin-bottom: 0;
-}
-
-h5 {
-font-size: 19px;
-margin-top: 0;
-}
-
-.img_m {
-    max-height: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: 100px;
-    margin-top: -200px;
-}

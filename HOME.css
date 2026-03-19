@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anek+Bangla:wght@100..800&family=Anta&display=swap');
+
+body{
+  font-family: "Abel", sans-serif;
+  background-color: #EFF1F5;
+}
+
+a {
+    color: #020202;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #9C0000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #ffff;
+border-radius: 10px;
+}
+
+.logo {
+align-items: flex-start;
+font-weight:900;
+font-size: 36px;
+padding: 10px;
+font-family: "Anta", sans-serif;
+}
+
+.img {
+width: 50px;
+height: 50px;
+padding: 10px;
+}
+
+.header_list {
+    display: flex;
+}
+
+/* ..........................новинки на главном экране.......................... */
+
+.content {
+    padding-top: 250px;
+    max-height: 0px;
+    margin-right: auto;
+    margin-left: 400px;
+}   
+
+h1 {
+font-size: 96px;
+word-spacing: 0px;
+margin-bottom: 0;
+}
+
+h5 {
+font-size: 19px;
+margin-top: 0;
+}
+
+.img_m {
+    max-height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: -200px;
+}   
