@@ -127,20 +127,13 @@ p {
         color: #000000;
     }  
     .cards-container { 
-        display:flex;
+        display:flex; 
         flex-wrap:wrap;
         height: 0px;
         justify-content:center;
-        margin-top:50px;
-        max-width:100%;
-    }
-
-    
-    
-    .cards-container {
-        display: grid;
         margin: 0%;
     }
+
     .product-item {
         display: grid;
         align-items: center;
